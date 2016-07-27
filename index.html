@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" type="image/png" href="images/favicon.png">
+
+	<title>shape</title>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+	
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body style="margin: 0">
+	<button id="showContent">Show Content</button>
+	
+	<div id="dialog" title="Photosensitive Seizure Warning">
+		<p>A very small percentage of people may experience a seizure when exposed to certain visual images, including flashing lights or patterns that may appear on this page. Even people who have no history of seizures or epilepsy may have an undiagnosed condition that can cause these “photosensitive epileptic seizures."</p>
+		<div id="readMore">
+		<p>These seizures may have a variety of symptoms, including lightheadedness, altered vision, eye or face twitching, jerking or shaking of arms or legs, disorientation, confusion, or momentary loss of awareness. Seizures may also cause loss of consciousness or convulsions that can lead to injury from falling down or striking nearby objects.</p>
+		<p>Immediately stop playing and consult a doctor if you experience any of these symptoms. Parents should watch for or ask their children about the above symptoms. Children and teenagers are more likely than adults to experience these seizures.</p>
+		</div>
+		<button id="slideToggle">Read More</button>
+		<h2>Are You Sure You Would Like To View This Webpage?</h2>
+	</div>
+
+	<div id="modal"><div id="paused">
+		<img id="resume" src="images/resume.png">
+		<img id="stop" src="images/stop.png">
+	</div></div>
+
+	<div id="control">
+		<div id="slowdown"><img src="images/slowdown.png"></div>
+		<div id="pause"><img src="images/pause.png"></div>
+		<div id="refresh"><img src="images/refresh.png"></div>
+		<div id="speedup"><img src="images/speedup.png"></div>
+	</div>
+	
+	<div id="background"></div>
+	<div id="snap"></div>
+
+	<div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+		<div class="move"></div>
+	</div>
+
+<!--     <label for="polychrome">Polychrome</label>
+    <input type="radio" name="radio-1" id="polychrome" checked>
+    <label for="monochrome">Monochrome</label>
+    <input type="radio" name="radio-1" id="monochrome"> -->
+</body>
+
+</html>
