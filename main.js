@@ -8,6 +8,7 @@ function LightenDarkenColor(color, percent) {
 } // stackoverflow.com/questions/5560248/programmatically-lighten-or-darken-a-hex-color-or-rgb-and-blend-colors
 
 $(document).ready(function() {
+	$("input[type=checkbox]").switchButton();
 	x = 2000; y = 2000; z = 2000;
 	$('#background').hide(); $('.move').hide();
 	$('#control').draggable({snap: "#snap", snapMode: "inner"});
